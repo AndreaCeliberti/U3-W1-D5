@@ -37,11 +37,11 @@ class Gallery extends Component {
   render() {
     console.log("questo è render");
     return (
-      <Container style={{ color: "white" }} className="bg-black d-flex flex-column overflow-x-hidden mw-75 m-auto">
+      <Container style={{ color: "white" }} className="bg-black d-flex flex-column flex-nowrap overflow-x-hidden m-auto">
         {Object.entries(this.state.moviesList).map(([category, films]) => (
           <div key={category} className="mb-5">
             <h3 className="">{category}</h3>
-            <Row className="justify-content-center">
+            <Row className="justify-content-center flex-nowrap overflow-x-hidden">
               {films.map((film) => (
                 <Col key={film.imdbID} xs={12} sm={6} md={4} xl={2} className="p-0">
                   <img src={film.Poster} alt={film.Title} className="img-fluid" />
