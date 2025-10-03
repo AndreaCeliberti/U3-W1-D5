@@ -45,6 +45,9 @@ function MyNav() {
         </Navbar.Brand>
       </Container>
     </Navbar>
+
+    // ho provato il refactoring della vecchia nav ma ci mettevo troppo tempo ed ho fatto prima a ricrearla
+
     // <Navbar className="navbar navbar-expand-lg bg-body-#141414" data-bs-theme="dark">
     //   <Container className="container-fluid ">
     //     <Row>

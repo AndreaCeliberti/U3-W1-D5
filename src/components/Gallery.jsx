@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 class Gallery extends Component {
   state = {
-    moviesList: {}, // oggetto con i film per ogni saga
+    moviesList: {},
   };
 
   fetchMovies = () => {
